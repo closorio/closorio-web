@@ -1,7 +1,7 @@
 // Define a type for the color variants
 type ColorVariants = {
-  blue: string;
   red: string;
+  white: string;
  };
  
  // Define a type for the Button props
@@ -12,8 +12,8 @@ type ColorVariants = {
  
  const Button = ({ color, children }: ButtonProps) => {
   const colorVariants: ColorVariants = {
-     blue: 'bg-blue-600 hover:bg-blue-500',
-     red: 'bg-red-600 hover:bg-red-500',
+     red: 'bg-[#FF6464] hover:bg-blue-500',
+     white: 'bg-white-600 hover:bg-red-500',
   };
  
   return (

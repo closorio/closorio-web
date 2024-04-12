@@ -8,9 +8,13 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {},
+      colors: {
+        "primary": "#FF6464",
+        "secondary": "#EDF7FA",
+        "dark": "#00A8CC",
+      },
       fontFamily: {
-        custom: ["Open Sans", "sans-serif"],
+        custom: ["Rubik", "sans-serif"],
       },
       backgroundImage: {
         "hero-pattern": "url('src/assets/subtle-prism.svg')",

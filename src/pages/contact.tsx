@@ -3,7 +3,7 @@ const Contact = () => {
     <>
       <section
         id="section-contact"
-        className="text-gray-600 body-font min-h-80 border-4"
+        className="text-gray-600 body-font min-h-80"
       >
         <div className="container flex flex-wrap md:flex-nowrap px-5 py-18 mx-auto md:mt-20 mt-15">
           <div className="md:w-1/2 bg-white rounded-lg p-8 flex flex-col justify-center md:ml-auto w-full mt-10 md:mt-0  text-center ">
