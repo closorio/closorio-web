@@ -15,8 +15,8 @@ interface SectionProjectProps {
   imageUrl: string;
   title: string;
   description: string;
-  buttonText: string;// Assuming buttonClick is a function that doesn't return anything
-  url: string; // Agrega una nueva propiedad para la URL
+  buttonText: string;
+  url: string; 
 }
 
 const SectionProject = ({
@@ -24,9 +24,9 @@ const SectionProject = ({
   title,
   description,
   buttonText,
-  url, // Asegúrate de pasar la URL como prop
+  url, 
 }: SectionProjectProps) => (
-  <section className="text-gray-600 body-font min-h-60 bg-secondary mb-5 shadow-inner border-4 border-solid border-white">
+  <section className="text-gray-600 body-font min-h-60 bg-hero-pattern bg-repeat bg-secondary-dark bg-opacity-50 mb-10 shadow-lg ">
     <div className="container px-5 py-10 mx-auto">
       <div className="flex -mx-4 -mb-10 text-center">
         <div className="md:w-1/2 mb-10 mx-auto px-4">

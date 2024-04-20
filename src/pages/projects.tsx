@@ -8,7 +8,7 @@ const Projects = () => {
         className="text-gray-600 body-font min-h-80"
       >
         <div className="container px-5 py-18 mt-20 mx-auto">
-          <div className="sm:w-3/5 mb-10 mx-auto px-4">
+          <div className="sm:w-3/5 mb-20 mx-auto px-4">
             <h2 className="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">
               Proyectos
             </h2>

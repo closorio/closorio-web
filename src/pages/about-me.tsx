@@ -8,11 +8,11 @@ const AboutMe = () => {
     <>
       <section
         id="section-aboutme"
-        className="text-gray-600 body-font min-h-80 bg-secondary"
+        className="text-gray-600 body-font min-h-80 bg-hero-pattern bg-repeat bg-secondary-dark bg-opacity-50 shadow-md"
       >
-        <div className="container px-5 py-20 mx-auto md:mt-12 md:mb-20">
-          <div className="flex -mx-4 mb-10 text-justify">
-            <div className="sm:w-3/5 mb-10 mx-auto px-4 ">
+        <div className="container px-5 py-20 mx-auto md:mt-12 md:mb-20 ">
+          <div className="flex -mx-4 mb-10 text-justify bg-white/40 rounded-lg shadow-md">
+            <div className="w-4/5 sm:w-3/5 mb-10 mx-auto px-4 pt-6">
               <h2 className="title-font text-2xl font-medium text-gray-900 md:mt-6 mb-4  text-center md:text-start">
                 Acerca de mí
               </h2>
@@ -45,7 +45,7 @@ const AboutMe = () => {
             </div>
           </div>
 
-          <div className="flex -mx-4 -mb-10 text-justify bg-white rounded">
+          <div className="flex -mx-4 -mb-10 text-justify bg-white rounded shadow-inner">
             <div className="sm:w-1/2 mb-10 mx-auto px-4 text-center">
               <h2 className="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">
                 Mis habilidades y tecnologías

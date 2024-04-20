@@ -1,7 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import NavBar from './components/navbar'
 import Home from './pages/home'
-import PageNotFound from './pages/error-page'
 import Footer from './components/footer'
 
 function App() {
@@ -12,7 +11,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>} /> 
-        <Route path="*" element={<PageNotFound />} />
+        <Route path="*" element={<Home/>} />
       </Routes>
     </BrowserRouter>
     <Footer/>

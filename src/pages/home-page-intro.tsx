@@ -1,5 +1,4 @@
-
-const MainSection = () => {
+const HomePageIntro = () => {
   return (
     <>
       <section
@@ -19,7 +18,17 @@ const MainSection = () => {
               </p>
 
               <div>
-                <button className="flex lg:mx-1 mx-auto mt-6 text-white bg-primary border-0 py-3 px-6 focus:outline-none hover:bg-indigo-600 rounded">CCV</button>
+                <button
+                  onClick={() =>
+                    window.open(
+                      "https://drive.google.com/file/d/1wWJXaQz_2KrZVMbMTSqHqApGZlZ6oSoH/view?usp=sharing",
+                      "_blank"
+                    )
+                  }
+                  className="flex lg:mx-1 mx-auto mt-6 text-white bg-primary border-0 py-3 px-6 focus:outline-none hover:bg-indigo-600 rounded"
+                >
+                  Descargar CV
+                </button>
               </div>
             </div>
 
@@ -39,4 +48,4 @@ const MainSection = () => {
   );
 };
 
-export default MainSection;
+export default HomePageIntro;

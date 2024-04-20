@@ -1,12 +1,12 @@
 import AboutMe from "./about-me";
 import Contact from "./contact";
-import MainSection from "./main-section";
+import HomePageIntro from "./home-page-intro";
 import Projects from "./projects";
 
 const Home = () => {
   return (
     <>
-      <MainSection />
+      <HomePageIntro />
       <AboutMe />
       <Projects />
       <Contact />
