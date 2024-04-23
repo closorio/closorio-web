@@ -1,3 +1,5 @@
+import SliderBrands from "../components/slider-brand";
+
 const AboutMe = () => {
   const scrollToContact = () => {
     const contactSection = document.getElementById("section-contact");
@@ -50,35 +52,9 @@ const AboutMe = () => {
               <h2 className="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">
                 Mis habilidades y tecnologías
               </h2>
-              <div className="flex flex-wrap mx-auto justify-center items-center">
-                <div className="mt-6 mr-4 text-white bg-indigo-500 border-0 py-3 px-6 focus:outline-none hover:bg-indigo-600 rounded">
-                  HTML
-                </div>
-                <div className="mt-6 mr-4 text-white bg-indigo-500 border-0 py-3 px-6 focus:outline-none hover:bg-indigo-600 rounded">
-                  CSS
-                </div>
-                <div className="mt-6 mr-4 text-white bg-indigo-500 border-0 py-3 px-6 focus:outline-none hover:bg-indigo-600 rounded">
-                  JavaScript
-                </div>
-                <div className="mt-6 mr-4 text-white bg-indigo-500 border-0 py-3 px-6 focus:outline-none hover:bg-indigo-600 rounded">
-                  TypeScript
-                </div>
-                <div className="mt-6 mr-4 text-white bg-indigo-500 border-0 py-3 px-6 focus:outline-none hover:bg-indigo-600 rounded">
-                  React
-                </div>
-                <div className="mt-6 mr-4 text-white bg-indigo-500 border-0 py-3 px-6 focus:outline-none hover:bg-indigo-600 rounded">
-                  Git
-                </div>
-                <div className="mt-6 mr-4 text-white bg-indigo-500 border-0 py-3 px-6 focus:outline-none hover:bg-indigo-600 rounded">
-                  Github
-                </div>
-                <div className="mt-6 mr-4 text-white bg-indigo-500 border-0 py-3 px-6 focus:outline-none hover:bg-indigo-600 rounded">
-                  Figma
-                </div>
-                <div className="mt-6 mr-4 text-white bg-indigo-500 border-0 py-3 px-6 focus:outline-none hover:bg-indigo-600 rounded">
-                  Terminal
-                </div>
-              </div>
+
+              <SliderBrands />
+
             </div>
           </div>
         </div>
