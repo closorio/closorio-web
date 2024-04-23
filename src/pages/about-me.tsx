@@ -50,7 +50,6 @@ const AboutMe = () => {
               <h2 className="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">
                 Mis habilidades y tecnologías
               </h2>
-
               <div className="flex flex-wrap mx-auto justify-center items-center">
                 <div className="mt-6 mr-4 text-white bg-indigo-500 border-0 py-3 px-6 focus:outline-none hover:bg-indigo-600 rounded">
                   HTML
