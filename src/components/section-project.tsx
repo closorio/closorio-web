@@ -8,7 +8,7 @@ const Image = ({ src, alt }: ImageProps) => (
     alt={alt}
     className="object-cover object-center h-full w-full"
     src={src}
-    style={{ aspectRatio: "16/9" }} // Asegura que la imagen siempre tenga el mismo tamaño
+    style={{ aspectRatio: "16/9" }}
   />
 );
 
@@ -31,7 +31,7 @@ const SectionProject = ({
   buttonText,
   url,
 }: SectionProjectProps) => (
-  <section className="text-gray-600 body-font bg-white border border-gray-200 rounded-lg shadow-lg md:mb-10 mb-8 ">
+  <section className="text-gray-600 body-font bg-white border border-gray-200 rounded-lg shadow-lg md:mb-10 mb-8 md:w-16/10">
     <div className="container px-4 mx-auto">
       <div className="flex -mx-4 -mb-10 text-center flex-col md:flex-row">
 
@@ -64,7 +64,7 @@ const SectionProject = ({
             {title}
           </h2>
           <span className="bg-black rounded-md text-white px-2 py-1 mr-6 ">{year}</span>
-          <span className="text-gray-500 text-lg ">{type}</span>
+          <span className="text-gray-500 ">{type}</span>
           <p className="leading-relaxed text-base my-4">{description}</p>
         </div>
       </div>

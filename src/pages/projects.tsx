@@ -7,8 +7,8 @@ const Projects = () => {
         id="section-projects"
         className="text-gray-600 body-font"
       >
-        <div className="container px-5 py-10 mt-20 mx-auto">
-          <div className="sm:w-3/5 mb-10 mx-auto px-4">
+        <div className="container px-5 py-18 mx-auto ">
+        <div className="mb-10 mx-auto pt-10 w-[95%] md:w-2/3">
             <h2 className="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">
               Proyectos
             </h2>

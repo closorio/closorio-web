@@ -29,15 +29,14 @@ const SliderBrands = () => {
         className="flex"
         animate={{
           x: ['-300%', '0%'],
-          transition: { ease: 'linear', duration: 50, repeat: Infinity },
+          transition: { ease: 'linear', duration: 40, repeat: Infinity },
         }}
       >
         {/* Renderiza los slides duplicados */}
         {duplicatedSlides.map((slide, index) => (
           <div
             key={index}
-            className="flex-shrink-0"
-            style={{ width: `${150 / slides.length}%` }}
+            className="flex-shrink-0 w-1/4 md:w-1/12"
           >
             <div className="flex flex-col items-center px-1 md:py-4 py-2 justify-center h-full text-xl">
               <img src={slide.logo} alt={slide.brand} className="w-full h-full" />
