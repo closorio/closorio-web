@@ -1,9 +1,0 @@
-version: "3"
-services:
-  frontend:
-    build: .
-    ports:
-      - "5175:5175"
-    environment:
-    volumes:
-      - ./src:/app/src
