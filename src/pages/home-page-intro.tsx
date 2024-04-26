@@ -26,7 +26,7 @@ const HomePageIntro = () => {
                   Tecnólogo en Sistemas de información,
                 </strong>
               </h2>
-              <p className="leading-snug text-lg text-center text-slate-500 md:text-start">
+              <p className="leading-snug md:w-11/12 text-lg text-center text-slate-500 md:text-start">
                 El arte, el diseño y la tecnología informática han sido mis
                 pasiones desde siempre, y me llevaron a incursionar en el mundo de
                 la programación y el diseño web donde encuentro la satisfacción
@@ -113,21 +113,9 @@ const HomePageIntro = () => {
                   </div>
                 </div>
               </span>
-
-              {/* <button
-                  onClick={() =>
-                    window.open(
-                      "https://drive.google.com/file/d/1wWJXaQz_2KrZVMbMTSqHqApGZlZ6oSoH/view?usp=sharing",
-                      "_blank"
-                    )
-                  }
-                  className="flex lg:mx-1 mx-auto mt-6 text-white bg-primary border-0 py-3 px-6 focus:outline-none hover:bg-indigo-600 rounded"
-                >
-                  Descargar CV
-                </button> */}
             </div>
 
-            <div className="flex items-center justify-center md:mr-auto px-4 ">
+            <div className="flex-col items-center justify-center md:mr-auto md:mt-8 px-2">
               <div className="rounded-full h-40 w-40 md:h-56 md:w-56 overflow-hidden  mx-auto shadow-[0_25px_40px_-12px_rgba(0,0,0,0.5)]">
                 <img
                   alt="content"
