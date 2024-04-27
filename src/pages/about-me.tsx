@@ -1,60 +1,35 @@
-import SliderBrands from "../components/slider-brand";
-
 const AboutMe = () => {
-  const scrollToContact = () => {
-    const contactSection = document.getElementById("section-contact");
-    contactSection?.scrollIntoView({ behavior: "smooth" });
-  };
-
   return (
     <>
-      <section
-        id="section-aboutme"
-        className="text-gray-600 body-font bg-hero-pattern bg-repeat bg-secondary-dark bg-opacity-50 shadow-md md:mt-10"
-      >
-        <div className="container px-5 py-20 mx-auto md:mb-20 ">
-          <div className="flex -mx-4 mb-10 text-justify bg-white/40 rounded-lg shadow-md">
-            <div className="mb-10 mx-auto px-4 pt-10 w-[92%] md:w-2/3">
-              <h2 className="title-font text-2xl font-medium text-gray-900 md:mt-6 mb-4  text-center md:text-start">
-                Acerca de mí
-              </h2>
-
-              <p className="leading-relaxed text-base">
-                I'm a Frontend Focused Web Developer building and managing the
-                Front-end of Websites and Web Applications that leads to the
-                success of the overall product. Check out some of my work in the
-                Projects section.
-              </p>
-              <p className="leading-relaxed text-base">
-                I also like sharing content related to the stuff that I have
-                learned over the years in Web Development so it can help other
-                people of the Dev Community. Feel free to Connect or Follow me
-                on my Linkedin and Instagram where I post useful content related
-                to Web Development and Programming.
-              </p>
-              <p className="leading-relaxed text-base">
-                I'm open to Job opportunities where I can contribute, learn and
-                grow. If you have a good opportunity that matches my skills and
-                experience then don't hesitate to contact me.
-              </p>
-
-              <button
-                onClick={scrollToContact}
-                className="flex mx-auto mt-6 text-white bg-primary border-0 py-3 px-6 focus:outline-none hover:bg-indigo-600 rounded"
-              >
-                Contacto
-              </button>
-            </div>
+      <section id="section-aboutme" className="text-gray-600 body-font pb-2">
+        <div className="container px-5 md:px-40 mx-auto my-20 md:my-32 ">
+          <div className="mb-10 mx-auto pt-10 w-full">
+            <h2 className="title-font flex items-center gap-x-4 text-2xl md:text-3xl font-bold text-gray-900 mt-6 mb-3">
+              <span className=" w-8 text-primary">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentcolor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M10.5 21H4C4 17.4735 6.60771 14.5561 10 14.0709M16.4976 16.2119C15.7978 15.4328 14.6309 15.2232 13.7541 15.9367C12.8774 16.6501 12.7539 17.843 13.4425 18.6868C13.8312 19.1632 14.7548 19.9983 15.4854 20.6353C15.8319 20.9374 16.0051 21.0885 16.2147 21.1503C16.3934 21.203 16.6018 21.203 16.7805 21.1503C16.9901 21.0885 17.1633 20.9374 17.5098 20.6353C18.2404 19.9983 19.164 19.1632 19.5527 18.6868C20.2413 17.843 20.1329 16.6426 19.2411 15.9367C18.3492 15.2307 17.1974 15.4328 16.4976 16.2119ZM15 7C15 9.20914 13.2091 11 11 11C8.79086 11 7 9.20914 7 7C7 4.79086 8.79086 3 11 3C13.2091 3 15 4.79086 15 7Z" />
+                </svg>
+              </span>
+              Sobre mí
+            </h2>
           </div>
-
-          <div className="flex -mx-4 -mb-10 text-justify bg-white rounded shadow-inner">
-            <div className="mb-8 mx-auto px-4 text-center">
-              <h2 className="title-font text-2xl font-medium text-gray-900 mt-6 mb-4">
-                Mis habilidades y tecnologías
-              </h2>
-              <SliderBrands />
-            </div>
-          </div>
+          <p className="leading-relaxed text-base mb-4">
+            Empecé en la programación a mediados del 2018 en la creación de diversos proyectos como requisitos para los cursos académicos dados en la Universidad del Valle, Cali, Colombia.
+            Actualmente me encuentro en la búsqueda de nuevos desafíos en mi
+            área profesional como Programador Web Junior.
+            </p>
+          <p className="leading-relaxed text-base">
+            Adicionalmente, cuento con un par de títulos más como Técnico en sistemas y Diseño gráfico, puesto que crecí siendo influenciado por el rápido avance y desarrollo de la tecnología y el
+            poder del impacto audiovisual en la vida de las personas, como en la mía a través de las películas y los videojuegos.
+            </p>
         </div>
       </section>
     </>

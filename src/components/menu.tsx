@@ -10,14 +10,9 @@ import {
 
 const navmenu = [
   {
-    name: "Inicio",
-    href: "#section-home",
-    icon: ChartPieIcon,
-  },
-  {
-    name: "Acerca de",
-    href: "#section-aboutme",
-    icon: CursorArrowRaysIcon,
+    name: "Experiencia",
+    href: "#section-experience",
+    icon: FingerPrintIcon,
   },
   {
     name: "Proyectos",
@@ -25,9 +20,14 @@ const navmenu = [
     icon: SquaresPlusIcon,
   },
   {
-    name: "Contacto",
-    href: "#section-contact",
-    icon: FingerPrintIcon,
+    name: "Sobre mí",
+    href: "#section-aboutme",
+    icon: CursorArrowRaysIcon,
+  },
+  {
+    name: "Inicio",
+    href: "#section-home",
+    icon: ChartPieIcon,
   },
 ];
 
