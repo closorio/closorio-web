@@ -20,7 +20,7 @@ const HomePageIntro = () => {
           <div className="flex flex-col-reverse md:flex-row -mx-4 -mb-12">
             <div className="md:w-3/6 mb-10 md:ml-auto px-3">
               <h2 className="title-font text-xl md:text-2xl text-center md:text-start text-gray-900 mt-6 mb-3">
-                Me llamo <strong>Leonardo Osorio</strong>,
+                Soy <strong>Leonardo Osorio</strong>,
                 <br />{" "}
                 <strong className="md:text-4xl">
                   Tecnólogo en Sistemas de información,
@@ -29,7 +29,7 @@ const HomePageIntro = () => {
               <p className="leading-snug md:w-11/12 text-lg text-center text-slate-500 md:text-start">
                 El arte, el diseño y la tecnología informática han sido mis
                 pasiones desde siempre, y me llevaron a incursionar en el mundo de
-                la programación y el diseño web donde encuentro la satisfacción
+                la programación y del diseño web, donde encuentro la satisfacción
                 de crear soluciones digitales que impulsen el espíritu
                 emprendedor.
               </p>

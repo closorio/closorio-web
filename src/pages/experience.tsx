@@ -20,7 +20,7 @@ Monitoría Soporte Técnico:*/
 
   return (
     <>
-      <section id="section-projects" className="text-gray-600 body-font">
+      <section id="section-experience" className="text-gray-600 body-font">
         <div className="container px-5 md:px-40  py-18 mx-auto ">
           <div className="mb-10 mx-auto pt-10 w-full">
             <h2 className="title-font flex items-center gap-x-4 text-2xl md:text-3xl font-bold text-gray-900 mt-6 mb-3">
