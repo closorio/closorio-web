@@ -21,7 +21,7 @@ Monitoría Soporte Técnico:*/
   return (
     <>
       <section id="section-experience" className="text-gray-600 body-font">
-        <div className="container px-5 md:px-40  py-18 mx-auto ">
+        <div className="container px-5 md:px-40 pb-8 py-18 mx-auto">
           <div className="mb-10 mx-auto pt-10 w-full">
             <h2 className="title-font flex items-center gap-x-4 text-2xl md:text-3xl font-bold text-gray-900 mt-6 mb-3">
               <span className=" w-8 text-primary">
@@ -39,7 +39,7 @@ Monitoría Soporte Técnico:*/
               </span>
               Mi Experiencia
             </h2>
-            <hr></hr>
+            <hr className="w-3/4 h-1 mr-auto my-4 bg-gray-100 border-opacity-90"></hr>
           </div>
           <ol className="relative mt-16">
             {EXPERIENCIE.map((experience, index) => (
@@ -49,9 +49,9 @@ Monitoría Soporte Técnico:*/
             ))}
           </ol>
           <div className="mb-10 mx-auto pt-10 w-full">
-          <div className="flex -mx-4 -mb-10 text-justify bg-white">
+          <div className="flex -mx-4 -mb-10 text-justify bg-white rounded-lg">
             <div className="mb-8 mx-auto px-4 text-center">
-              <h2 className="title-font flex items-center gap-x-4 text-2xl md:text-3xl font-bold text-gray-900 mt-6 mb-3">
+              <h2 className="title-font flex items-center gap-x-4 text-2xl  md:text-3xl font-bold text-gray-900 mt-6 mb-3">
                 <span className=" w-8 text-primary">
                   <svg
                     viewBox="0 0 16 16"
