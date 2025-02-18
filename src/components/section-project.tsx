@@ -37,10 +37,20 @@ const SectionProject: FC<SectionProjectProps> = ({
 }: SectionProjectProps) => {
   // Mapeo de colores a estilos
   const badgeStyles: { [key: string]: string } = {
+    Docker: "bg-purple-200 text-purple-800 border-purple-400",
     Figma: "bg-pink-100 text-pink-800 border-pink-400",
+    "Google Apps Script": "bg-yellow-200 text-yellow-800 border-yellow-400",
+    "Google API": "bg-blue-100 text-blue-800 border-blue-400",
+    "Google Workspace": "bg-red-100 text-red-800 border-red-400",
+    Termux: "bg-green-100 text-green-600 border-green-400",
+    "Telegram API": "bg-blue-100 text-blue-600 border-blue-700",
+    Inkscape: "bg-gray-100 text-black-800 border-gray-700",
+    Javascript: "bg-yellow-100 text-yellow-800 border-yellow-400",
+    "Material UI": "bg-pink-100 text-pink-800 border-pink-400",
     Nodejs: "bg-green-100 text-green-800 border-green-400",
-    React: "bg-indigo-100 text-indigo-800 border-indigo-400",
-    Docker: "bg-purple-100 text-purple-800 border-purple-400",
+    React: "bg-blue-100 text-blue-500 border-blue-400",
+    "UI/UX Design": "bg-purple-100 text-purple-600 border-purple-400",
+    
   };
 
   return (
@@ -63,14 +73,14 @@ const SectionProject: FC<SectionProjectProps> = ({
                     onClick={() =>
                       window.open(url, "_blank", "noopener noreferrer")
                     }
-                    className="flex mx-auto md:mt-6 mt-1 text-white bg-primary border-0 md:py-3 py-1 px-6 focus:outline-none hover:bg-indigo-600 rounded"
+                    className="flex mx-auto md:mt-6 mt-1 text-white bg-primary border-0 md:py-3 py-1 px-6 focus:outline-none hover:bg-green-400 rounded transition-all duration-300"
                   />
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="md:w-1/2 mb-10 ml-6 text-left">
+          <div className="md:w-1/2 mb-10 ml-6 text-left md:pt-4 pr-1 md:pr-4">
             <h2 className="title-font text-2xl font-bold text-gray-900 md:mt-4 mt-0 mb-3">
               {title}
             </h2>
@@ -78,7 +88,7 @@ const SectionProject: FC<SectionProjectProps> = ({
               {year}
             </span>
             <span className="text-gray-500 ">{type}</span>
-            <div className="py-3 gap-x-4">
+            <div className="flex flex-wrap py-3 gap-x-1 gap-y-1">
               {badges.map((badge, index) => (
                 <span
                   key={index}
@@ -88,7 +98,7 @@ const SectionProject: FC<SectionProjectProps> = ({
                 </span>
               ))}
             </div>
-            <p className="leading-relaxed text-base mb-4 md:mb-3 pr-3">{description}</p>
+            <p className="leading-relaxed text-base mb-4 py-1 md:mb-3 pr-3 overflow-hidden transition-all duration-500 ease-in-out max-h-24 md:max-h-36 hover:max-h-96">{description}</p>
           </div>
         </div>
       </div>

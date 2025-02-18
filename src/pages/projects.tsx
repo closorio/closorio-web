@@ -22,36 +22,54 @@ const Projects = () => {
           </div>
 
           <SectionProject
+            title="Botsniok"
+            imageUrl="src/assets/view-botsniok.png"
+            description="Bot de Telegram que funciona como puente de comunicación entre canales de idiomas distintos, integrando traducción automática y reenvío de mensajes (texto y multimedia) entre un canal uno o varios canales distintos"
+            year="2024"
+            type="Telegram Bot"
+            buttonText="Ir a Botsniok"
+            url="https://github.com/closorio/transbot_bot"
+            badges={[
+              "Javascript",
+              "Nodejs",
+              "Termux",
+              "Telegram API",
+              "Google API",
+            ]}
+          />
+
+          <SectionProject
+            title="Ciclovia AutoDocs"
+            imageUrl="src/assets/view-ciclovia-autodocs.png"
+            description="Software de generación cronogramas de actividades mensual en formato de hojas de cálculo para la optimización en la recolección de datos de usuarios, simplificando la generación de documentación necesaria para la validación de cuentas de cobro."
+            year="2023"
+            type="Pluggin de Google Sheets"
+            buttonText="Ir a AutoDocs"
+            url="https://github.com/closorio/proyecto-ciclovia-autodocs"
+            badges={["Javascript", "Google Apps Script", "Google API" , "Google Workspace"]}
+          />
+
+          <SectionProject
             title="SLC Budget"
             imageUrl="src/assets/project-2.png"
-            description="Williamsburg occupy sustainable snackwave gochujang I created with each project containing its own case study."
+            description="Aplicación web diseñada para gestionar eventos y actividades grupales, facilitando la comunicación y la administración de gastos entre amigos, familiares o compañeros de trabajo."
             year="2023"
             type="Aplicación Web"
             buttonText="Ir a SLC Budget"
-            url="https://www.figma.com/proto/THMxXHpJbsptUyRD7vfHn5/SLC-Budget-APP?type=design&node-id=1004-104&t=gu0FlP4BFOA6030s-1&scaling=min-zoom&page-id=619%3A3231&mode=design"
-            badges={["Figma", "React", "Nodejs", "Docker"]} 
+            url=" https://github.com/closorio/SLC-Budget-Website"
+            /*https://www.figma.com/proto/THMxXHpJbsptUyRD7vfHn5/SLC-Budget-APP?type=design&node-id=1004-104&t=gu0FlP4BFOA6030s-1&scaling=min-zoom&page-id=619%3A3231&mode=design*/
+            badges={["Figma", "React", "Nodejs", "Material UI", "Docker"]}
           />
 
           <SectionProject
             title="CampAds"
             imageUrl="src/assets/project-1.png"
-            description="Williamsburg occupy sustainable snackwave gochujang I created with each project containing its own case study."
+            description="Diseño de página web de anuncios clasificados exclusivo para estudiantes, maestros y egresados de la Universidad del Valle, que alberga emprendimientos, compraventas y servicios."
             year="2023"
             type="Proyecto en Figma"
             buttonText="Ir a CapAds"
             url="https://www.figma.com/proto/7x0s2Nv4UC9u8TpZ5AfZyJ/CampAds-Webpage?node-id=189-1370&starting-point-node-id=189%3A1370&scaling=scale-down&mode=design&t=o8pU0xt61TioYpsP-1"
-            badges={["Figma", "React", "Nodejs"]} 
-          />
-
-          <SectionProject
-            title="Don Gato y Asociados"
-            imageUrl="src/assets/project-3.png"
-            description="Williamsburg occupy sustainable snackwave gochujang I created with each project containing its own case study."
-            year="2023"
-            type="Proyecto en Figma"
-            buttonText="Ir a Don Gato"
-            url="https://www.figma.com/proto/TGa65n3PwsFW3xQcPdkSf0/Don-gato-y-Asociados?type=design&node-id=1-6&t=y3WlXY3DjYJJykT0-1&scaling=min-zoom&page-id=0%3A1&mode=design"
-            badges={["Figma"]} 
+            badges={["Figma", "Inkscape", "UI/UX Design"]}
           />
         </div>
       </section>

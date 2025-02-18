@@ -116,7 +116,7 @@ const HomePageIntro = () => {
             </div>
 
             <div className="flex-col items-center justify-center md:mr-auto md:mt-8 px-2">
-              <div className="rounded-full h-40 w-40 md:h-56 md:w-56 overflow-hidden  mx-auto shadow-[0_25px_40px_-12px_rgba(0,0,0,0.5)]">
+              <div className="rounded-full h-40 w-40 md:h-60 md:w-60 overflow-hidden  mx-auto shadow-[0_25px_40px_-12px_rgba(0,0,0,0.6)]">
                 <img
                   alt="content"
                   className="object-cover object-center h-full w-full"
