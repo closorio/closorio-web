@@ -13,7 +13,7 @@ const Experience = () => {
 Dirección de Nuevas Tecnologías y Educación Virtual - DINTEV
 Monitoría Soporte Técnico:*/
       description:
-        " Soporte técnico, mantenimiento y actualización de la página web del campus virtual (https://campusvirtual.univalle.edu.co/moodle/). Investigación y desarrollo de pluggins y nuevas tecnologías para la mejora en la experiencia de usuario.",
+        " Soporte técnico, mantenimiento y actualización de la página web del campus virtual de la Universidad el Valle. Investigación y desarrollo de pluggins y nuevas tecnologías para la mejora en la experiencia de usuario.",
     },
     /*********************************************************************************************************************/
     {
