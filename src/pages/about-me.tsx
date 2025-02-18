@@ -2,8 +2,8 @@ const AboutMe = () => {
   return (
     <>
       <section id="section-aboutme" className="text-gray-600 body-font pb-2">
-        <div className="container px-5 md:px-40 mx-auto my-8 md:my-10">
-          <div className="mb-6 mx-auto pt-10 w-full">
+        <div className="custom-container md:pb-20">
+          <div className="mx-auto w-full">
             <h2 className="title-font flex items-center gap-x-4 text-2xl md:text-3xl font-bold text-gray-900 mt-6 mb-3">
               <span className=" w-8 text-primary">
                 <svg
@@ -20,7 +20,7 @@ const AboutMe = () => {
               </span>
               Sobre mí
             </h2>
-            <hr className="w-3/4 h-1 mr-auto my-4 bg-gray-100 border-opacity-90"></hr>
+            <hr className="w-3/4 h-1 mr-auto my-4 bg-primary opacity-70"></hr>
           </div>
           <p className="leading-relaxed text-base mb-4">
             Empecé en la programación a mediados del 2018 en la creación de diversos proyectos como requisitos para los cursos académicos dados en la Universidad del Valle, Cali, Colombia.

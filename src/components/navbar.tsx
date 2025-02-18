@@ -7,9 +7,9 @@ const NavBar = () => {
 
   return (
     <>
-      <header className="bg-white text-gray-600 body-font sticky top-0 z-20">
-        <div className="container mx-auto flex p-4 lg:flex-row items-center font-bold ">
-          <nav className=" hidden md:block md:ml-auto items-center text-base justify-center md:gap-x-4 ">
+      <header className="bg-white text-gray-600 body-font sticky top-0 z-20 drop-shadow-xl">
+        <div className="container mx-auto flex px-5 md:px-32 py-4 md:py-6 lg:flex-row items-center font-bold"> 
+          <nav className="hidden md:block md:ml-auto items-center text-lg justify-center md:gap-x-4">
             <Link
               to="section-experience"
               className="mr-5 hover:text-primary cursor-pointer"

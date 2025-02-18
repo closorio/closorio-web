@@ -14,15 +14,31 @@ Dirección de Nuevas Tecnologías y Educación Virtual - DINTEV
 Monitoría Soporte Técnico:*/
       description:
         " Entre las tareas realizadas, trabajé en el soporte técnico, mantenimiento y actualización de la página web del campus virtual. Además de la constante investigación de nuevas tecnologías para mejorar la experiencia de los usuarios.",
-      link: "https://github.com/closorio",
+      link: "https://github.com/closorio/AsanaTaskToDocx",
+    },
+    /*********************************************************************************************************************/
+    {
+      date: "Septiembre 2023",
+      title: "Soporte Técnico web",
+      company: "FENALCO - Federación Nacional de Comerciantes",
+      description:
+        " Resolución de solicitudes técnicas y soporte a usuarios de la aplicación TIERS.Administración y optimización de registros en la plataforma del proyecto. Reporte de incidencias y propuestas de mejora en reuniones semanales. ",
+    },
+    /*********************************************************************************************************************/
+    {
+      date: "Diciembre 2020",
+      title: "Analista en el área de servicios",
+      company: "COMPUNET",
+      description:
+        " Elaboración de reportes y documentación mensual a partir de bases de datos. Gestión de citas y reuniones mediante herramientas digitales (Microsoft Teams) • Actualización de información corporativa, asegurando precisión y eficiencia. ",
     },
   ];
 
   return (
     <>
       <section id="section-experience" className="text-gray-600 body-font">
-        <div className="container px-5 md:px-40 pb-8 py-18 mx-auto">
-          <div className="mb-10 mx-auto pt-10 w-full">
+        <div className="custom-container">
+          <div className="mb-20 mx-auto w-full">
             <h2 className="title-font flex items-center gap-x-4 text-2xl md:text-3xl font-bold text-gray-900 mt-6 mb-3">
               <span className=" w-8 text-primary">
                 <svg
@@ -39,7 +55,7 @@ Monitoría Soporte Técnico:*/
               </span>
               Mi Experiencia
             </h2>
-            <hr className="w-3/4 h-1 mr-auto my-4 bg-gray-100 border-opacity-90"></hr>
+            <hr className="w-3/4 h-1 mr-auto my-4 bg-primary opacity-70"></hr>
           </div>
           <ol className="relative mt-16">
             {EXPERIENCIE.map((experience, index) => (

@@ -16,7 +16,7 @@ const HomePageIntro = () => {
   return (
     <>
       <section id="section-home" className="text-gray-600 body-font">
-        <div className="container px-5 py-18 md:py-20 mx-auto md:mt-12">
+        <div className="custom-container md:py-20 mt-0">
           <div className="flex flex-col-reverse md:flex-row -mx-4 -mb-12">
             <div className="md:w-3/6 mb-10 md:ml-auto px-3">
               <h2 className="title-font text-xl md:text-2xl text-center md:text-start text-gray-900 mt-6 mb-3">

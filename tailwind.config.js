@@ -9,10 +9,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        "primary": "#FF6464",
-        "secondary": "#EDF7FA",
+        primary: "#FF6464",
+        secondary: "#EDF7FA",
         "secondary-dark": "#D0EAF1",
-        "dark": "#00A8CC",
+        dark: "#00A8CC",
       },
       fontFamily: {
         custom: ["Rubik", "sans-serif"],
@@ -20,6 +20,18 @@ export default {
       backgroundImage: {
         "hero-pattern": "url('src/assets/pattern.svg')",
         "footer-texture": "url('/img/footer-texture.png')",
+      },
+      spacing: {
+        '36': '9rem',
+      },
+      borderRadius: {
+        '2xl': '1rem',
+      },
+      backdropBlur: {
+        '1px': '1px',
+      },
+      backdropOpacity: {
+        '80': '0.8',
       },
     },
   },

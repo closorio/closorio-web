@@ -9,12 +9,12 @@
     }
   }
 
-  body {
-    margin: 0;
-    padding: 0;
-  }
-
- 
   html {
     scroll-behavior: smooth;
+  }
+
+  @layer components {
+    .custom-container {
+      @apply container px-5 md:px-12 py-10 md:py-10 mx-auto my-10  rounded-2xl bg-white/30 backdrop-blur-[1px] md:backdrop-blur-[2px] backdrop-opacity-40 md:backdrop-opacity-100 drop-shadow-2xl;
+    }
   }

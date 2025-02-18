@@ -8,7 +8,7 @@ type Props = LayoutProps;
 
 const Layout = ({ children }: Props) => {
   return (
-    <div className="mx-4 my-6 md:mx-36 md:my-10 rounded-2xl bg-white/30 backdrop-blur-[1px] backdrop-opacity-80">
+    <div className="mx-4 md:mx-36">
       {children}
     </div>
   );

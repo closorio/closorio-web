@@ -8,7 +8,7 @@ import backgroundSvg from "../assets/light-background.svg"; // Asegúrate de aju
 const Home = () => {
   return (
     <div
-      className="bg-cover bg-no-repeat bg-center bg-fixed"
+      className="bg-cover bg-no-repeat bg-center bg-fixed pt-10"
       style={{
         backgroundImage: `url(${backgroundSvg})`,
       }}
