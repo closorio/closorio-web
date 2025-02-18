@@ -23,7 +23,7 @@ const Projects = () => {
 
           <SectionProject
             title="Botsniok"
-            imageUrl="src/assets/view-botsniok.png"
+            imageUrl="public/static/view-botsniok.png"
             description="Bot de Telegram que funciona como puente de comunicación entre canales de idiomas distintos, integrando traducción automática y reenvío de mensajes (texto y multimedia) entre un canal uno o varios canales distintos"
             year="2024"
             type="Telegram Bot"
@@ -40,7 +40,7 @@ const Projects = () => {
 
           <SectionProject
             title="Ciclovia AutoDocs"
-            imageUrl="src/assets/view-ciclovia-autodocs.png"
+            imageUrl="public/static/view-ciclovia-autodocs.png"
             description="Software de generación cronogramas de actividades mensual en formato de hojas de cálculo para la optimización en la recolección de datos de usuarios, simplificando la generación de documentación necesaria para la validación de cuentas de cobro."
             year="2023"
             type="Pluggin de Google Sheets"
@@ -51,7 +51,7 @@ const Projects = () => {
 
           <SectionProject
             title="SLC Budget"
-            imageUrl="src/assets/project-2.png"
+            imageUrl="public/static/project-2.png"
             description="Aplicación web diseñada para gestionar eventos y actividades grupales, facilitando la comunicación y la administración de gastos entre amigos, familiares o compañeros de trabajo."
             year="2023"
             type="Aplicación Web"
@@ -63,7 +63,7 @@ const Projects = () => {
 
           <SectionProject
             title="CampAds"
-            imageUrl="src/assets/project-1.png"
+            imageUrl="public/static/project-1.png"
             description="Diseño de página web de anuncios clasificados exclusivo para estudiantes, maestros y egresados de la Universidad del Valle, que alberga emprendimientos, compraventas y servicios."
             year="2023"
             type="Proyecto en Figma"
