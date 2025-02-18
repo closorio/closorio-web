@@ -1,19 +1,19 @@
 import { motion } from 'framer-motion';
 
 const slides = [
-  { brand: 'HTML', logo: 'public/static/carrousel-icons/html.svg' },
-  { brand: 'CSS', logo: 'public/static/carrousel-icons/css.svg' },
-	{ brand: 'JavaScript', logo: 'public/static/carrousel-icons/javascript.svg' },
-  { brand: 'TypeScript', logo: 'public/static/carrousel-icons/typescript.svg' },
-  { brand: 'React', logo: 'public/static/carrousel-icons/react.svg' },
-  { brand: 'Nodejs', logo: 'public/static/carrousel-icons/nodejs.svg' },
-  { brand: 'Tailwind', logo: 'public/static/carrousel-icons/tailwind.svg' },
-  { brand: 'PostgreSQL', logo: 'public/static/carrousel-icons/postgresql.svg' },
-  { brand: 'Git', logo: 'public/static/carrousel-icons/git.svg' },
-  { brand: 'Github', logo: 'public/static/carrousel-icons/github.svg' },
-  { brand: 'Docker', logo: 'public/static/carrousel-icons/docker.svg' },
-  { brand: 'Jira Software', logo: 'public/static/carrousel-icons/jira.svg' },
-  { brand: 'Figma', logo: 'public/static/carrousel-icons/figma.svg' },
+  { brand: 'HTML', logo: '/static/carrousel-icons/html.svg' },
+  { brand: 'CSS', logo: '/static/carrousel-icons/css.svg' },
+	{ brand: 'JavaScript', logo: '/static/carrousel-icons/javascript.svg' },
+  { brand: 'TypeScript', logo: '/static/carrousel-icons/typescript.svg' },
+  { brand: 'React', logo: '/static/carrousel-icons/react.svg' },
+  { brand: 'Nodejs', logo: '/static/carrousel-icons/nodejs.svg' },
+  { brand: 'Tailwind', logo: '/static/carrousel-icons/tailwind.svg' },
+  { brand: 'PostgreSQL', logo: '/static/carrousel-icons/postgresql.svg' },
+  { brand: 'Git', logo: '/static/carrousel-icons/git.svg' },
+  { brand: 'Github', logo: '/static/carrousel-icons/github.svg' },
+  { brand: 'Docker', logo: '/static/carrousel-icons/docker.svg' },
+  { brand: 'Jira Software', logo: '/static/carrousel-icons/jira.svg' },
+  { brand: 'Figma', logo: '/static/carrousel-icons/figma.svg' },
 
   ];
   
