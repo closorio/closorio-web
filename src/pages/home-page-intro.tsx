@@ -120,7 +120,7 @@ const HomePageIntro = () => {
                 <img
                   alt="content"
                   className="object-cover object-center h-full w-full"
-                  src="src/assets/io.png"
+                  src="public/static/io.png"
                 />
               </div>
             </div>
