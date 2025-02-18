@@ -23,9 +23,8 @@ const AboutMe = () => {
             <hr className="w-3/4 h-1 mr-auto my-4 bg-primary opacity-70"></hr>
           </div>
           <p className="leading-relaxed text-base mb-4">
-            Empecé en la programación a mediados del 2018 en la creación de diversos proyectos como requisitos para los cursos académicos dados en la Universidad del Valle, Cali, Colombia.
-            Actualmente me encuentro en la búsqueda de nuevos desafíos en mi
-            área profesional como Programador Web Junior.
+            Inicié en la programación a mediados del 2018 en la creación de diversos proyectos como requisitos para los cursos académicos dados en la Universidad del Valle, en Cali, Colombia.
+            Actualmente me encuentro en la búsqueda de nuevos desafíos en mi área profesional como Programador Web Junior.
             </p>
           <p className="leading-relaxed text-base">
             Adicionalmente, cuento con un par de títulos más como Técnico en sistemas y Diseño gráfico, puesto que crecí siendo influenciado por el rápido avance y desarrollo de la tecnología y el

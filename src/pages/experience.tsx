@@ -13,8 +13,7 @@ const Experience = () => {
 Dirección de Nuevas Tecnologías y Educación Virtual - DINTEV
 Monitoría Soporte Técnico:*/
       description:
-        " Entre las tareas realizadas, trabajé en el soporte técnico, mantenimiento y actualización de la página web del campus virtual. Además de la constante investigación de nuevas tecnologías para mejorar la experiencia de los usuarios.",
-      link: "https://github.com/closorio/AsanaTaskToDocx",
+        " Soporte técnico, mantenimiento y actualización de la página web del campus virtual (https://campusvirtual.univalle.edu.co/moodle/). Investigación y desarrollo de pluggins y nuevas tecnologías para la mejora en la experiencia de usuario.",
     },
     /*********************************************************************************************************************/
     {
@@ -22,7 +21,7 @@ Monitoría Soporte Técnico:*/
       title: "Soporte Técnico web",
       company: "FENALCO - Federación Nacional de Comerciantes",
       description:
-        " Resolución de solicitudes técnicas y soporte a usuarios de la aplicación TIERS.Administración y optimización de registros en la plataforma del proyecto. Reporte de incidencias y propuestas de mejora en reuniones semanales. ",
+        " Resolución de solicitudes técnicas y soporte a usuarios de la aplicación web TIERS. Administración y optimización de registros en la plataforma web del proyecto. Reporte de incidencias y propuestas de mejora en reuniones semanales. ",
     },
     /*********************************************************************************************************************/
     {
@@ -64,28 +63,29 @@ Monitoría Soporte Técnico:*/
               </li>
             ))}
           </ol>
+
           <div className="mb-10 mx-auto pt-10 w-full">
-          <div className="flex -mx-4 -mb-10 text-justify bg-white rounded-lg">
-            <div className="mb-8 mx-auto px-4 text-center">
-              <h2 className="title-font flex items-center gap-x-4 text-2xl  md:text-3xl font-bold text-gray-900 mt-6 mb-3">
-                <span className=" w-8 text-primary">
-                  <svg
-                    viewBox="0 0 16 16"
-                    fill="none"
-                    stroke="currentcolor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.2"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path d="m1.75 11 6.25 3.25 6.25-3.25m-12.5-3 6.25 3.25 6.25-3.25m-6.25-6.25-6.25 3.25 6.25 3.25 6.25-3.25z" />
-                  </svg>
-                </span>
-                Mi Frontend Stack
-              </h2>
-              <SliderBrands />
+            <div className="flex -mx-2 -mb-10 text-justify bg-white rounded-lg shadow-inner shadow-gray-500/80">
+              <div className="mb-8 mx-auto px-4 text-center">
+                <h2 className="title-font flex items-center gap-x-4 text-2xl  md:text-3xl font-bold text-gray-900 mt-6 mb-3">
+                  <span className=" w-8 text-primary">
+                    <svg
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      stroke="currentcolor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.2"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="m1.75 11 6.25 3.25 6.25-3.25m-12.5-3 6.25 3.25 6.25-3.25m-6.25-6.25-6.25 3.25 6.25 3.25 6.25-3.25z" />
+                    </svg>
+                  </span>
+                  Mi Frontend Stack
+                </h2>
+                <SliderBrands />
+              </div>
             </div>
-          </div>
           </div>
         </div>
       </section>
