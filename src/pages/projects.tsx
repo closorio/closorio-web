@@ -22,9 +22,27 @@ const Projects = () => {
           </div>
 
           <SectionProject
+            title="The Simplest Quiz"
+            imageUrl="/static/view-tsq.png"
+            description="Aplicación web de preguntas y respuestas, presenta a los usuarios una serie de preguntas de opción múltiple. Tras seleccionar una respuesta, recibirán retroalimentación inmediata con colores que indican si fue correcta o incorrecta. La app incluye un sistema de puntuación, muestra los resultados finales al terminar el quiz"
+            year="2025"
+            type="Web Application"
+            buttonText="Ir a The Simplest Quiz"
+            url="https://the-simplest-quiz.vercel.app/"
+            badges={[
+              "Typescript",
+              "React",
+              "Nodejs",
+              "Express",
+              "Tailwind CSS",
+              "Vercel",
+            ]}
+          />
+
+          <SectionProject
             title="Botsniok"
             imageUrl="/static/view-botsniok.png"
-            description="Bot de Telegram que funciona como puente de comunicación entre canales de idiomas distintos, integrando traducción automática y reenvío de mensajes (texto y multimedia) entre un canal uno o varios canales distintos"
+            description="Bot de Telegram que funciona como puente de comunicación entre canales de idiomas distintos, integrando traducción automática y reenvío de mensajes (texto y multimedia) entre uno o varios canales distintos"
             year="2024"
             type="Telegram Bot"
             buttonText="Ir a Botsniok"
