@@ -26,7 +26,7 @@ const HomePageIntro = () => {
                   Tecnólogo en Sistemas de información,
                 </strong>
               </h2>
-              <p className="leading-snug md:w-11/12 text-lg text-center text-slate-500 md:text-start">
+              <p className="leading-snug md:w-11/12 text-lg text-center text-slate-700 md:text-start">
                 El arte, el diseño y la tecnología informática han sido mis
                 pasiones desde siempre, y me llevaron a incursionar en el mundo de
                 la programación y del diseño web, donde encuentro la satisfacción

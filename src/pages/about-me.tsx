@@ -22,11 +22,11 @@ const AboutMe = () => {
             </h2>
             <hr className="w-3/4 h-1 mr-auto my-4 bg-primary opacity-70"></hr>
           </div>
-          <p className="leading-relaxed text-base mb-4">
+          <p className="leading-relaxed text-base mb-4 text-slate-700 md:text-lg ">
             Inicié en la programación a mediados del 2018 en la creación de diversos proyectos como requisitos para los cursos académicos dados en la Universidad del Valle, en Cali, Colombia.
-            Actualmente me encuentro en la búsqueda de nuevos desafíos en mi área profesional como Programador Web Junior.
+            Actualmente me encuentro en la búsqueda de nuevos desafíos en mi área profesional como Programador Web Full Stack.
             </p>
-          <p className="leading-relaxed text-base">
+          <p className="leading-relaxed text-base text-slate-700 md:text-lg ">
             Adicionalmente, cuento con un par de títulos más como Técnico en sistemas y Diseño gráfico, puesto que crecí siendo influenciado por el rápido avance y desarrollo de la tecnología y el
             poder del impacto audiovisual en la vida de las personas, como en la mía a través de las películas y los videojuegos.
             </p>
