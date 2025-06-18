@@ -22,13 +22,40 @@ const Projects = () => {
           </div>
 
           <SectionProject
+            title="Face Feel AI"
+            imageUrl="/static/view-facefeelai.png"
+            description="Diseño y desarrollo de aplicación web full stack de código abierto para detección y clasificación de emociones faciales
+en tiempo real mediante cámara web. El sistema emplea un modelo CNN de Deep Learning de visión por computadora y procesa las capturas en un dataset autogenerado."
+            year="2025"
+            type="Aplicación Web"
+            buttonText="Ir a Face Feel AI"
+            url="https://facialytics-frontend.vercel.app/"
+            githubUrl="https://github.com/closorio/facefeel_ai_frontend"
+            badges={[
+              "React",
+              "Vite",
+              "Typescript",
+              "Tailwind CSS",
+              "Vercel",
+              "FastAPI",
+              "Uvicorn",
+              "Python",
+              "Google Cloud",
+              "TensorFlow",
+              "Machine Learning",
+              "Deep Learning",
+              "Computer Vision",
+            ]}
+          />
+          <SectionProject
             title="The Simplest Quiz"
             imageUrl="/static/view-tsq.png"
             description="Aplicación web de preguntas y respuestas, presenta a los usuarios una serie de preguntas de opción múltiple. Tras seleccionar una respuesta, recibirán retroalimentación inmediata con colores que indican si fue correcta o incorrecta. La app incluye un sistema de puntuación, muestra los resultados finales al terminar el quiz"
             year="2025"
-            type="Web Application"
+            type="Aplicación Web"
             buttonText="Ir a The Simplest Quiz"
             url="https://the-simplest-quiz.vercel.app/"
+            githubUrl="https://github.com/closorio/the-simplest-quiz"
             badges={[
               "Typescript",
               "React",
@@ -45,8 +72,9 @@ const Projects = () => {
             description="Bot de Telegram que funciona como puente de comunicación entre canales de idiomas distintos, integrando traducción automática y reenvío de mensajes (texto y multimedia) entre uno o varios canales distintos"
             year="2024"
             type="Telegram Bot"
-            buttonText="Ir a Botsniok"
-            url="https://github.com/closorio/transbot_bot"
+            buttonText=""
+            url=""
+            githubUrl="https://github.com/closorio/transbot_bot"
             badges={[
               "Javascript",
               "Nodejs",
@@ -62,9 +90,15 @@ const Projects = () => {
             description="Software de generación cronogramas de actividades mensual en formato de hojas de cálculo para la optimización en la recolección de datos de usuarios, simplificando la generación de documentación necesaria para la validación de cuentas de cobro."
             year="2023"
             type="Pluggin de Google Sheets"
-            buttonText="Ir a AutoDocs"
-            url="https://github.com/closorio/proyecto-ciclovia-autodocs"
-            badges={["Javascript", "Google Apps Script", "Google API" , "Google Workspace"]}
+            buttonText=""
+            url=""
+            githubUrl="https://github.com/closorio/proyecto-ciclovia-autodocs"
+            badges={[
+              "Javascript",
+              "Google Apps Script",
+              "Google API",
+              "Google Workspace",
+            ]}
           />
 
           <SectionProject
@@ -73,8 +107,9 @@ const Projects = () => {
             description="Aplicación web diseñada para gestionar eventos y actividades grupales, facilitando la comunicación y la administración de gastos entre amigos, familiares o compañeros de trabajo."
             year="2023"
             type="Aplicación Web"
-            buttonText="Ir a SLC Budget"
-            url=" https://github.com/closorio/SLC-Budget-Website"
+            buttonText=""
+            url=""
+            githubUrl="https://github.com/closorio/SLC-Budget-Website"
             /*https://www.figma.com/proto/THMxXHpJbsptUyRD7vfHn5/SLC-Budget-APP?type=design&node-id=1004-104&t=gu0FlP4BFOA6030s-1&scaling=min-zoom&page-id=619%3A3231&mode=design*/
             badges={["Figma", "React", "Nodejs", "Material UI", "Docker"]}
           />
